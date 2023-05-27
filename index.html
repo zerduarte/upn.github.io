@@ -1,557 +1,296 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>UPNMF SCHOOL</title>
-<meta name="description" content="">
-<meta name="author" content="WebThemez">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/animate.css" rel="stylesheet" media="screen">
-<!-- Carrusel -->
+<title>Bistro Restaurant Free HTML5 Bootstrap Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
 <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css" />
-<!-- Fuente Awesome -->
-<link href="font/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 </head>
-
 <body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i><img src="images/logo.png" /></i></b></a> </div>
-      <!--/.navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#aboutUs" class="scroll-link">Servicios</a></li>
-          <li><a href="#work" class="scroll-link">Informacion</a></li>
-          <li><a href="#contactUs" class="scroll-link">Contactanos</a></li>
-          <li class="dropdown order-1">
-                    <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle">Logueo<span class="caret"></span></button>
-                    <ul class="dropdown-menu dropdown-menu-right mt-1">
-                      <li class="p-3">
-                            <form class="form" role="form">
-                                <div class="form-group">
-                                    <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-primary btn-block">Login</button>
-                                </div>
-                                <div class="form-group text-xs-center">
-                                    <small><a href="#">Olvidaste Tu Contraseña</a></small>
-                                </div>
-                            </form>
-                        </li>
+<div id="wrapper" class="home-page">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Inicio</a></li> 
+						<li><a href="acercade.html">ACERCA DE</a></li>
+						<li><a href="services.html">Servicios</a></li>
+                        <li><a href="gallery.html">Imagenes</a></li>
+                        <li><a href="horario.html">Horarios</a></li>
+                        <li><a href="contact.html">Contactenos</a></li>
                     </ul>
-                </li>
-        </ul>
-     
-      </div>
-      <!--/.navbar---> 
-    </nav>
-    <!--/.navbar--> 
-  </div>
-  <!--/.container--> 
-</header>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container"> 
-  	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel" data-slide-to="1"></li>
-    <li data-target="#carousel" data-slide-to="2"></li>
-  </ol>
-  <!-- Carousel items -->
-  <div class="carousel-inner">
-    <div class="active item"><img src="images/banner-bg.jpg" alt="banner" /></div>
-    <div class="item"><img src="images/banner-bg2.jpg" alt="banner" /></div>
-    <div class="item"><img src="images/banner-bg3.jpg" alt="banner" /></div>
-  </div>
-  <!-- Carousel nav -->
-  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-</div>
-	
-  </div>  
-  
-  <div class="container hero-text2">        
-		<div class="col-md-9">
-		<h2>Porque Estudiar en La UPNMF School?</h1>
-			<p>Porque creemos en nuestros estudiantes, creemos que son capaces de llegar lejos, de cumplir sus metas y nosotros haremos lo posible porque suceda.  </p>   
-		</div>  
-		<div class="col-md-3">
-			<a class="btn btn-apply" href="#"><i class="fa fa-play-circle"></i>Aplica Ahora</a>  
-		</div>
-  </div>
-</section>
-<section id="Features" class="page-section colord">
-  <div class="container">
-    <div class="row"> 
-      <!-- item -->
-      <div class="col-md-3 text-center"> 
-	  <div class="box-item">
-	  <i class="circle"><img src="images/5.png" alt="" /></i>
-        <h3>Educación Pre-Basica</h3>
-        <p>Completamente Bilingue Pre-kinder, Kinder</p>
-      </div>
-	   </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center">
-	  <div class="box-item">
-	  <i class="circle"> <img src="images/1.png" alt="" /></i>
-        <h3>Educación Básica</h3>
-        <p>Primero a Noveno En Ingles </p>
-      </div>
-	   </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center">
-	  <div class="box-item">
-	  <i class="circle"> <img src="images/2.png" alt="" /></i>
-        <h3>Educación Media</h3>
-        <p>Bachillerato Inglés y Español </p>
-      </div>
-	   </div>
-      <!-- end: --> 
-      
-	   </div>
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
-<section id="aboutUs">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>Sobre Nosotros</h2>
-      <p>Somos una Institución que brinda servicios de calidad
-🎓 Excelencia Académica
-🙏🏽 Principios y Valores
-🏆 Disciplinas Deportivas
-🗣️ Potenciamos el Inglés + Bilingüe
-👨🏽‍🏫 Docentes altamente capacitados
-💻 Pioneros en tecnología
-👩🏽‍💼 Orientación y Psicología
-👩🏽‍⚕️ Salud Escolar</p>
-    </div>
-    <div class="row feature design">
-      <div class="area1 columns left">
-        <h3>Nuestra Calidad es Insuperable</h3>
-        <p>Porque nuestro objetivo principal es que nuestros estudiantes cumplan sus metas y objetivos académicos, no solo que aprendan,    sino que sepan aplicar el conocimiento.
-         Porque nuestra metodología de enseñanza está basada en el desarrollo y aprendizaje de nuestros estudiantes, es muy diversa, atractiva y vanguardista.
-
-         Porque nuestros profesores son multiculturales, lo que logrará en el aprendizaje de nuestros estudiantes una perspectiva amplia y diversa de los fenómenos actuales en los distintos sectores.</p>
-          <a href="#" class="btn">Aplica a Una Beca</a>
-      </div>
-      <div class="area2 columns feature-media right"> <img src="images/about-img.jpg" alt="" width="100%"> </div>
-    </div>
-    <div class="row dataTxt">	
-						<div class="col-md-4 col-sm-6">
-							<h3>Nuestra Educación</h3>
-							<p>Brindamos una educación de calidad que contribuya en el futuro profesional de tu hijo(a).
-                  Todos nuestros estudiantes, desde inicial hasta secundaria, desarrollan distintas habilidades en su aprendizaje.
-                      Estamos orgullosos de ser parte de su educación</p>
-                            
-							<br>
-						</div>
-						
-						<div class="col-md-4 col-sm-6">
-							
-							<h3>Cursos Extra curriculares</h3>
-							<p>Nuestros Jovenes aprenden </p>
-                            <ul class="listArrow">
-								<li>Clases de Guitarra</li>
-								<li>Natación</li>
-								<li>Futbol</li>
-								<li>Danza </li>
-								<li>Arte</li>
-							</ul>
-							<!-- Accordion starts -->
-							</div>
-						
-						<div class="col-md-4 col-sm-6">
-							
-							<h3>Nuestros Valores</h3>
-							<p>Resaltamos los valores morales en todo momento</p>
-                            <ul  class="list3">
-								<li>Honestidad</li>
-								<li>Respeto</li>
-								<li>Amistad </li>
-								<li>Bondad</li> 
-							</ul>
-                            
-							<!-- Accordion starts -->
-							</div>
-						
-					</div>
-  </div>
-</section> 
-<section id="work" class="page-section page">
-  <div class="container text-center">
-    <div class="heading">
-      <h2>Eventos</h2>
-      <p>Estos son Algunas de Nuestras Actividades</p>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="portfolio">
-          <ul class="filters list-inline">
-            <li> <a class="active" data-filter="*" href="#">Todos</a> </li>
-            <li> <a data-filter=".photography" href="#">Eventos</a> </li>
-            <li> <a data-filter=".branding" href="#">Juegos </a> </li>
-            <li> <a data-filter=".web" href="#">Feria de ciencia</a> </li>
-          </ul>
-          <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
-            <li class="item branding" style="position: absolute; left: 0px; top: 0px;"> 
-								 			 
-			  <figure class="effect-bubba">
-						<img src="images/work/1.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/1.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure> 
-					
-			  </li>
-			  
-			 
-			  
-			  
-            <li class="item photography" style="position: absolute; left: 292px; top: 0px;"> 
-			<figure class="effect-bubba">
-						<img src="images/work/2.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/2.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure> 
-			  </li>
-            <li class="item branding" style="position: absolute; left: 585px; top: 0px;"> 
-			<figure class="effect-bubba">
-						<img src="images/work/3.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/3.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure>  
-			  </li>
-            <li class="item photography" style="position: absolute; left: 877px; top: 0px;"> 
-			<figure class="effect-bubba">
-						<img src="images/work/4.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/4.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure>  
-			  </li>
-            <li class="item photography" style="position: absolute; left: 0px; top: 219px;"> 
-			<figure class="effect-bubba">
-						<img src="images/work/5.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/5.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure> 
-			  </li>
-            <li class="item web" style="position: absolute; left: 292px; top: 219px;"> 
-			<figure class="effect-bubba">
-						<img src="images/work/6.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/6.jpg" class="fancybox">View more</a> 
-						</figcaption>			
-					</figure> 
-			  </li>
-            <li class="item photography" style="position: absolute; left: 585px; top: 219px;">
-			<figure class="effect-bubba">
-						<img src="images/work/7.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/7.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure> 
-			  </li>
-            <li class="item web" style="position: absolute; left: 877px; top: 219px;">
-			<figure class="effect-bubba">
-						<img src="images/work/8.jpg" alt="img02"/>
-						<figcaption>
-							<h2>Eventos</h2> 
-							<a href="images/work/8.jpg" class="fancybox">Ver Más</a> 
-						</figcaption>			
-					</figure> 
-			  </li>
-          </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="plans" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>Nuestros Precios</h2>
-      <p>Tenemos Accebilidad de precios en todos nuestros Grados</p>
-    </div>
-    <div class="row flat">
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <ul class="plan plan1">
-          <li class="plan-name">Pre-Basica</li>
-          <li class="plan-price"> <strong>2500L.</strong> / al Mes </li>
-          <li> <strong>Libros</strong> 1000L. </li>
-          <li> <strong>Uniforme</strong> 1000L. </li>
-          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Signup</a> </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <ul class="plan plan2 featured">
-          <li class="plan-name">Basica</li>
-          <li class="plan-price"> <strong>3000L.</strong> / al Mes </li>
-          <li> <strong>Libros</strong> 1000L. </li>
-          <li> <strong>Uniforme</strong> 1000L. </li>
-          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Aplica Ya</a> </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <ul class="plan plan3">
-          <li class="plan-name">Media</li>
-          <li class="plan-price"> <strong>3500L.</strong> / al Mes </li>
-          <li> <strong>Libros</strong> 1000L. </li>
-          <li> <strong>Uniforme</strong> 1000L. </li>
-         
-          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Aplica Ya</a> </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <ul class="plan plan4">
-          <li class="plan-name">Extra Curricular</li>
-          <li class="plan-price"> <strong>500</strong> / al Mes </li>
-          <li> <strong>futbol</strong></li>
-          <li> <strong>Natación</strong></li>
-          <li> <strong>Danza</strong></li>
-          <li> <strong>Arte</strong></li>
-          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Aplica Ya</a> </li>
-        </ul>
-      </div>
-      <p class="mb-4" style="font-size: 1.6rem;">Nuestro Horario de Clases <span class="bg-success-light p-1"><strong>08:00Am 1:30Pm</strong></span>&nbsp;Horario Administrativo <strong>08:00Am 5:30Pm</strong></p>
-
-    </div>
-  </div>
-</section>
-<section id="team" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>Nuestros Maestros</h2>
-      <p>Conoce al mejor equipo de maestros</p>
-    </div>
-    <!-- Detalle de los Miembros del equipo  -->
-    <div class="team-content">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12"> 
-          <!-- Miembro del Equipo -->
-          <div class="team-member pDark"> 
-            <!-- Imagen sobre  -->
-            <div class="member-img"> 
-              <!-- Imagen --> 
-              <img class="img-responsive" src="images/photo-1.jpg" alt=""> </div>
-            <!-- Detalle de los Miembros -->
-            <div class="team-title">
-			<h4>Jose Alejandro</h4>
-            <!-- Asignacion --> 
-            <span class="pos">Director</span>
+	</header>
+	<!-- end header -->
+	<section id="banner">
+	 
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/slides/1.jpg" alt="" />
+                
+              </li>
+              <li>
+                <img src="img/slides/2.jpg" alt="" />
+                
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+ 
+	</section>
+	<section class="txt-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="aligncenter"><h1 class="aligncenter">Nuestros servicios</h1>
+			    Nos dedicamos a ofrecer asesoría y soporte remoto y a domicilio sobre equipos informáticos con el objetivo de prolongar la vida de los equipos de cómputo mediante servicios de mantenimiento preventivo y correctivo.</div>
+				
 			</div>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12"> 
-          <!-- Miembro del Equipo -->
-          <div class="team-member pDark"> 
-            <!-- Imagen sobre  -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-2.jpg" alt=""> </div>
-            <!-- Detalle de Miembro -->
-            <h4>Jorge Zapata</h4>
-            <!-- Asignacion--> 
-            <span class="pos">Maestro</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-3.jpg" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Ana Salgado</h4>
-            <!-- Designation --> 
-            <span class="pos">SubDirectora</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-4.jpg" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Joan Ray</h4>
-            <!-- Designation --> 
-            <span class="pos">Finance</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
-<section id="contactUs" class="contact-parlex">
-  <div class="parlex-back">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center"> 
-          <!-- Heading -->
-          <h2>Contactanos</h2>
-          <p>sera un placer.</p>
-        </div>
-      </div>
-      <div class="row mrgn30">
-        <form method="post" action="" id="contactfrm" role="form">
-          <div class="col-sm-12">
-            <div class="form-group">
-              <label for="name">Nombre</label>
-              <input type="text" class="form-control" name="name" id="name" placeholder="Ingresa Tu Nombre" title="Ingresa Tu Nombre">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa Tu email" title="Ingresa Un Correo Valido">
-            </div>
-            <div class="form-group">
-              <label for="comments">Tu Consulta</label>
-              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Ingresa tu Mensaje…" title="ingresa el texto de mas de 10 caracteres"></textarea>
-              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Enviar</button>
-            </div>
-            <div class="result"></div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <!--/.container--> 
-  </div>
-</section>
-<footer>
-<div class="container">
-        <div class="row">
-            <div class="col-md-3">
-            	<div class="col">
-                   <h4>Contactanos</h4>
-                   <ul>
-                        <li>Universidad Pedagógica Nacional Francisco Morazán
-                            Colonia el Dorado, Frente a Plaza Miraflores</li>
-                        <li>Telefonos: Tel. 2239-8842/2235-8349/2239-8002/2235-6062, Fax. 2231-1257 </li>
-                        <li>Email: <a href="mailto:info@upnfm.com" title="Correo">info@upnfm.com</a></li>
-                    </ul>
-                 </div>
-            </div>
-            
-            <div class="col-md-3">
-            	<div class="col">
-                    <h4>Sucribete </h4>
-                    <p>Recibe Las Noticias de Nuestra Escuela más Recientes</p>
-                    <form class="form-inline">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your email address...">
-                            <span class="input-group-btn">
-                                <button class="btn" type="button">Ir!</button>
-                            </span>
+		</div>
+	</div>
+	</section>
+	
+	
+	<section id="services">
+	
+	
+	<div class="container">
+		<div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 0ms;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="img/1.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Reparación de PCs&nbsp;</h4>
+                                <p>No importa el modelo de la computadora, sabemos cómo arreglar cualquier aparato. Desde la recuperación de datos, hasta las reparaciones con diferentes problemas.</p>
+                            </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="col-md-3">
-            	<div class="col col-social-icons">
-                    <h4>Siguenos en Nuestras Redes Sociales</h4>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                    <a href="#"><i class="fa fa-flickr"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-skype"></i></a>
-                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                </div>
-            </div>
+                    </div><!--/.col-md-4-->
 
-             <div class="col-md-3">
-             	<div class="col">
-                    <h4>Ultimos Eventos</h4>
-                    <p>
-                    Conoce Nuestras ultimas Novedades.
-                    <br><br>
-                    <a href="#" class="btn">Conoce Más</a>
-                    </p>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 100ms;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                 <img src="img/2.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Reparación de Celulares&nbsp;&nbsp;</h4>
+                                <p>Te ofrecemos nuestro servicio técnico para reparar tu celular en el menor tiempo posible y con la garantía de un equipo de profesionales que buscarán la mejor solución para tu teléfono. Garantizado al 💯!</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 200ms;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="img/3.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Reparación en General&nbsp;</h4>
+                                <p>Nos enorgullecemos de servir profesionalmente la reparación de computadoras o cualquier otro problema informático</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    
+
+                 
+
+                    
+                </div>
+            </div>	 
+	 
+
+	</div>
+	
+	</section>
+	
+		<section class="aboutUs">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="aligncenter"><h2 class="aligncenter">Bienvenidos!</h2>
+			    Te damos una coordial bienvenida a nuestro sitio web</div>
+				<br/>
+			</div>
+		</div> 
+		<div class="row">
+							<div class="col-md-6">
+								<img src="img/img1.png" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<p><h4>No importa el modelo de la computadora, sabemos cómo arreglar cualquier aparato. Desde la recuperación de datos, hasta las reparaciones con diferentes problemas, estamos aquí para ayudarte de una manera rápida y eficiente. Solventamos fallos a nivel de hardware, virus o malwares, recuperamos archivos, actualizamos tu sistema operativo. Además hacemos mantenimiento preventivo, reparamos pantallas y limpiamos tu laptop por dentro, entre otros muchos servicios. Pídenos presupuesto sin compromiso desde hoy mismo.</p>
+								<ul class="list-unstyled">
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Reparación de PCs Escritorio</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Reparación de PCs Portatiles</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Reparación de Celulares</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Reparación de Tablets</li>
+									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Reparación de todo aparato computacional</li>
+								</ul>
+							</div>
+						</div>
+	
+	</div>
+	</section>
+	<section id='events'>
+	<div class="container">
+	<div class="row">
+			<div class="col-md-12">
+				<div class="aligncenter"><h2 class="aligncenter">Nuestros Servicios&nbsp;</h2>
+			    Te mostramos como nuestros clientes quedan satisfechos de nuestros trabajos</div>
+				<br>
+			</div>
+		</div>
+	<div class="row">
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="img/e1.png" alt="">Reparación de Hadware
+                        <a href="#">
+                            <time datetime="2015-03-01">
+                        <span class="year">&nbsp;</span><span class="month">&nbsp;</span> </time>
+                            <p>Aqui se asistio a una oficina en san pedro sula para mantenimiento de todo su equipo&nbsp;&nbsp;</p>
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="img/e2.png" alt="">
+                        <a href="#">
+                            <time datetime="2015-03-01">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ELECTRONICA
+                                <span class="year">&nbsp;</span>
+                                <span class="month">&nbsp;</span>
+                            </time>
+                            <p>SI LAS PIESAS A UN SE PUEDEN RECUPERA LO HACEMOS&nbsp;</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="img/e3.png" alt="">
+                        <a href="#">
+                            <time datetime="2015-03-01">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Reparación de Redes&nbsp; &nbsp;
+                                <span class="year">&nbsp;</span>
+                                <span class="month">&nbsp;</span>
+                            </time>
+                            <p>se cayó tu red tambien te la reparamos&nbsp;&nbsp;</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-         
-    </div>
-    
-</footer>
-<!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2023 | Derechos Reservados -- Alumnos de Informatica Educativa</a> </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</section>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+	</div>
+	</section> 
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Nuestro Contacto&nbsp;</h5>
+				  <address>
+					<strong>ATLM&nbsp;</strong><br>
+					Residencial Lomas de Maria auxiliadora,kilometro 4 salida al sur&nbsp; <br>
+				    
+					</address>
+					<p>
+						<i class="icon-phone"></i> (504) 9448- 7254-9858-2559&nbsp; <br>
+						<i class="icon-envelope-alt"></i> alejoteremon@gmail.com
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Enlaces Rapidos</h5>
+					<ul class="link-list">
+						<li><a href="https://www.facebook.com/alejo.rosalesmolina">Facebook</a></li>
+						<li><a href="https://www.youtube.com/channel/UCr_Y5Q0_xSWrxTFbOkNGKXQ">Youtube</a></li>
+						<li><a href="gmail.com">Gmail</a></li>
+						
+				  </ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Últimas publicaciones&nbsp;</h5>
+					<ul class="link-list">
+					  <li><a href="https://edutin.com/curso-de-reparacion-de-celulares-4308">Nuestros cursos para emprendedores&nbsp;</a></li>
+						<li><a href="https://www.digitalplanethn.com/">Nuestro sitio online&nbsp;</a></li>
+						<li><a href="https://www.amazon.com/-/es/">Contamos con venta de pc</a></li>
+					</ul>
+				</div>
+				
+			</div>	
+			
 
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="js/modernizr-latest.js"></script> 
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script src="js/jquery.nav.js" type="text/javascript"></script> 
-<script src="js/jquery.fittext.js"></script> 
-<script src="js/waypoints.js"></script> 
-<script src="js/custom.js" type="text/javascript"></script> 
+
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copyright">
+						<p>
+							<span>&copy; ATLM&nbsp; PCS 2023 CLASE DE DISEÑO WEB UPNFM </span><a href="http://webthemez.com" Bistro="_blank">&nbsp;</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
